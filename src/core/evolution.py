@@ -10,7 +10,7 @@ import random
 from copy import deepcopy
 from collections import defaultdict
 
-from genome import (
+from .genome import (
     QuantumGenome, Gene, GateType, GenomeFactory
 )
 
@@ -318,8 +318,16 @@ class NoveltyArchive:
         behavior = self.behavior_cache[genome.id]
         
         # Compute distances to all archived behaviors
+        # Limit comparisons if archive is too large to prevent hanging
+        max_comparisons = 500
+        archive_to_compare = self.archive
+        if len(self.archive) > max_comparisons:
+            # Randomly sample a subset for comparison
+            indices = np.random.choice(len(self.archive), size=max_comparisons, replace=False)
+            archive_to_compare = [self.archive[i] for i in indices]
+        
         distances = []
-        for other in self.archive:
+        for other in archive_to_compare:
             if other.id != genome.id and other.id in self.behavior_cache:
                 other_behavior = self.behavior_cache[other.id]
                 dist = np.linalg.norm(behavior - other_behavior)
@@ -540,11 +548,14 @@ class EvolutionEngine:
         self.generation += 1
         
         # Store fitness history
+        # Convert behavior arrays to tuples for hashing
+        unique_behaviors = set(tuple(b.tolist()) if isinstance(b, np.ndarray) else b 
+                              for b in behaviors.values())
         self.fitness_history.append({
             "generation": self.generation,
             "best": max(fitness_scores.values()),
             "average": np.mean(list(fitness_scores.values())),
-            "diversity": len(set(behaviors.values()))
+            "diversity": len(unique_behaviors)
         })
         
         return fitness_scores

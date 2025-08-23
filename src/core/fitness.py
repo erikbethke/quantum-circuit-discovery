@@ -11,7 +11,7 @@ from collections import Counter
 import hashlib
 import json
 
-from genome import QuantumGenome
+from .genome import QuantumGenome
 
 
 @dataclass

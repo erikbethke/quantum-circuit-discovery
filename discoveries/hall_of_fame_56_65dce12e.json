@@ -1,0 +1,356 @@
+{
+  "id": "65dce12e-e8b4-4d0e-bc21-ebfed491d298",
+  "rank": 56,
+  "fitness": {
+    "combined": 0.21057792199799108
+  },
+  "metadata": {
+    "depth": 24,
+    "gate_count": 36,
+    "qubit_count": 4,
+    "unique_gates": [
+      "cnot",
+      "x",
+      "ry",
+      "h",
+      "rz"
+    ]
+  },
+  "circuit": {
+    "qubits": 4,
+    "gates": [
+      {
+        "gate": "cnot",
+        "targets": [
+          0
+        ],
+        "controls": [
+          2
+        ],
+        "parameters": null
+      },
+      {
+        "gate": "rz",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 0.47820457170715575
+        }
+      },
+      {
+        "gate": "cnot",
+        "targets": [
+          2
+        ],
+        "controls": [
+          0
+        ],
+        "parameters": null
+      },
+      {
+        "gate": "x",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": null
+      },
+      {
+        "gate": "rz",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 0.8694474336226472
+        }
+      },
+      {
+        "gate": "rz",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 0.8694474336226472
+        }
+      },
+      {
+        "gate": "cnot",
+        "targets": [
+          1
+        ],
+        "controls": [
+          2
+        ],
+        "parameters": null
+      },
+      {
+        "gate": "h",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": null
+      },
+      {
+        "gate": "h",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": null
+      },
+      {
+        "gate": "h",
+        "targets": [
+          2
+        ],
+        "controls": null,
+        "parameters": null
+      },
+      {
+        "gate": "h",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": null
+      },
+      {
+        "gate": "h",
+        "targets": [
+          2
+        ],
+        "controls": null,
+        "parameters": null
+      },
+      {
+        "gate": "cnot",
+        "targets": [
+          1
+        ],
+        "controls": [
+          2
+        ],
+        "parameters": null
+      },
+      {
+        "gate": "x",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": null
+      },
+      {
+        "gate": "rz",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 4.979179011257734
+        }
+      },
+      {
+        "gate": "h",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": null
+      },
+      {
+        "gate": "rz",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 5.527364653648816
+        }
+      },
+      {
+        "gate": "h",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": null
+      },
+      {
+        "gate": "x",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": null
+      },
+      {
+        "gate": "rz",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 5.399113895836673
+        }
+      },
+      {
+        "gate": "ry",
+        "targets": [
+          2
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 2.689709780612372
+        }
+      },
+      {
+        "gate": "rz",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 0.8694474336226472
+        }
+      },
+      {
+        "gate": "cnot",
+        "targets": [
+          0
+        ],
+        "controls": [
+          1
+        ],
+        "parameters": null
+      },
+      {
+        "gate": "ry",
+        "targets": [
+          2
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 4.309554994182179
+        }
+      },
+      {
+        "gate": "cnot",
+        "targets": [
+          0
+        ],
+        "controls": [
+          1
+        ],
+        "parameters": null
+      },
+      {
+        "gate": "rz",
+        "targets": [
+          3
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 2.5112181800207773
+        }
+      },
+      {
+        "gate": "h",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": null
+      },
+      {
+        "gate": "x",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": null
+      },
+      {
+        "gate": "rz",
+        "targets": [
+          0
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 3.521778519909553
+        }
+      },
+      {
+        "gate": "h",
+        "targets": [
+          2
+        ],
+        "controls": null,
+        "parameters": null
+      },
+      {
+        "gate": "h",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": null
+      },
+      {
+        "gate": "rz",
+        "targets": [
+          2
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 0.47218954579749606
+        }
+      },
+      {
+        "gate": "rz",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 5.527364653648816
+        }
+      },
+      {
+        "gate": "rz",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 5.527364653648816
+        }
+      },
+      {
+        "gate": "rz",
+        "targets": [
+          0
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 3.521778519909553
+        }
+      },
+      {
+        "gate": "ry",
+        "targets": [
+          2
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 2.689709780612372
+        }
+      }
+    ]
+  }
+}

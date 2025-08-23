@@ -128,6 +128,7 @@ class DFALEngine:
                 self.save_checkpoint(gen + 1)
                 
         logger.info("\nEvolution complete!")
+        self.save_hall_of_fame()
         self.print_summary()
         
     def record_discovery(self, genome: QuantumGenome, generation: int):
@@ -181,6 +182,42 @@ class DFALEngine:
         with open(circuit_file, 'w') as f:
             json.dump(circuit_data, f, indent=2)
             
+    def save_hall_of_fame(self):
+        """Save all Hall of Fame circuits"""
+        logger.info(f"Saving {len(self.evolution_engine.elite_hall_of_fame)} Hall of Fame circuits...")
+        
+        for i, genome in enumerate(self.evolution_engine.elite_hall_of_fame):
+            circuit_file = self.output_dir / f"hall_of_fame_{i+1}_{genome.id[:8]}.json"
+            
+            circuit_data = {
+                "id": genome.id,
+                "rank": i + 1,
+                "fitness": genome.fitness_scores,
+                "metadata": {
+                    "depth": genome.depth(),
+                    "gate_count": len(genome.genes),
+                    "qubit_count": genome.qubit_count,
+                    "unique_gates": list({g.gate_type.value for g in genome.genes})
+                },
+                "circuit": {
+                    "qubits": genome.qubit_count,
+                    "gates": [
+                        {
+                            "gate": gene.gate_type.value,
+                            "targets": gene.targets,
+                            "controls": gene.controls,
+                            "parameters": gene.parameters
+                        }
+                        for gene in genome.genes
+                    ]
+                }
+            }
+            
+            with open(circuit_file, 'w') as f:
+                json.dump(circuit_data, f, indent=2)
+                
+        logger.info(f"Hall of Fame circuits saved to {self.output_dir}")
+    
     def save_checkpoint(self, generation: int):
         """Save evolution checkpoint"""
         checkpoint_file = self.output_dir / f"checkpoint_gen{generation}.json"

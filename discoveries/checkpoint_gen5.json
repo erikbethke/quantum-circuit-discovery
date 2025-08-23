@@ -1,0 +1,203 @@
+{
+  "generation": 5,
+  "config": {
+    "population_size": 50,
+    "mutation_rate": 0.3,
+    "crossover_rate": 0.7
+  },
+  "statistics": [
+    {
+      "generation": 1,
+      "population_size": 50,
+      "archive_size": 50,
+      "hall_of_fame_size": 3,
+      "fitness_history": [
+        {
+          "generation": 1,
+          "best": 0.1998741408278184,
+          "average": 0.12405972044436027,
+          "diversity": 44
+        }
+      ]
+    },
+    {
+      "generation": 2,
+      "population_size": 50,
+      "archive_size": 100,
+      "hall_of_fame_size": 6,
+      "fitness_history": [
+        {
+          "generation": 1,
+          "best": 0.1998741408278184,
+          "average": 0.12405972044436027,
+          "diversity": 44
+        },
+        {
+          "generation": 2,
+          "best": 0.23102423538643604,
+          "average": 0.15421649395154058,
+          "diversity": 21
+        }
+      ]
+    },
+    {
+      "generation": 3,
+      "population_size": 50,
+      "archive_size": 150,
+      "hall_of_fame_size": 9,
+      "fitness_history": [
+        {
+          "generation": 1,
+          "best": 0.1998741408278184,
+          "average": 0.12405972044436027,
+          "diversity": 44
+        },
+        {
+          "generation": 2,
+          "best": 0.23102423538643604,
+          "average": 0.15421649395154058,
+          "diversity": 21
+        },
+        {
+          "generation": 3,
+          "best": 0.21785105325929893,
+          "average": 0.1853454460308359,
+          "diversity": 8
+        }
+      ]
+    },
+    {
+      "generation": 4,
+      "population_size": 50,
+      "archive_size": 200,
+      "hall_of_fame_size": 12,
+      "fitness_history": [
+        {
+          "generation": 1,
+          "best": 0.1998741408278184,
+          "average": 0.12405972044436027,
+          "diversity": 44
+        },
+        {
+          "generation": 2,
+          "best": 0.23102423538643604,
+          "average": 0.15421649395154058,
+          "diversity": 21
+        },
+        {
+          "generation": 3,
+          "best": 0.21785105325929893,
+          "average": 0.1853454460308359,
+          "diversity": 8
+        },
+        {
+          "generation": 4,
+          "best": 0.21985490189607187,
+          "average": 0.19429204445822187,
+          "diversity": 4
+        }
+      ]
+    },
+    {
+      "generation": 5,
+      "population_size": 50,
+      "archive_size": 250,
+      "hall_of_fame_size": 15,
+      "fitness_history": [
+        {
+          "generation": 1,
+          "best": 0.1998741408278184,
+          "average": 0.12405972044436027,
+          "diversity": 44
+        },
+        {
+          "generation": 2,
+          "best": 0.23102423538643604,
+          "average": 0.15421649395154058,
+          "diversity": 21
+        },
+        {
+          "generation": 3,
+          "best": 0.21785105325929893,
+          "average": 0.1853454460308359,
+          "diversity": 8
+        },
+        {
+          "generation": 4,
+          "best": 0.21985490189607187,
+          "average": 0.19429204445822187,
+          "diversity": 4
+        },
+        {
+          "generation": 5,
+          "best": 0.2322356817955484,
+          "average": 0.19502571262674206,
+          "diversity": 4
+        }
+      ]
+    }
+  ],
+  "discoveries": [],
+  "top_circuits": [
+    {
+      "id": "4bdbaa49-e57e-4af9-82da-2115b223cd64",
+      "fitness": 0.2389033244953983,
+      "depth": 23,
+      "gates": 50
+    },
+    {
+      "id": "65dce12e-e8b4-4d0e-bc21-ebfed491d298",
+      "fitness": 0.2322356817955484,
+      "depth": 24,
+      "gates": 41
+    },
+    {
+      "id": "4bdbaa49-e57e-4af9-82da-2115b223cd64",
+      "fitness": 0.23102423538643604,
+      "depth": 21,
+      "gates": 45
+    },
+    {
+      "id": "4bdbaa49-e57e-4af9-82da-2115b223cd64",
+      "fitness": 0.23102423538643604,
+      "depth": 21,
+      "gates": 45
+    },
+    {
+      "id": "4bdbaa49-e57e-4af9-82da-2115b223cd64",
+      "fitness": 0.23102423538643604,
+      "depth": 21,
+      "gates": 45
+    },
+    {
+      "id": "4bdbaa49-e57e-4af9-82da-2115b223cd64",
+      "fitness": 0.2081348471657386,
+      "depth": 19,
+      "gates": 40
+    },
+    {
+      "id": "4dfbea77-8dc1-4a98-ad43-70e899ef9b12",
+      "fitness": 0.1821636055251073,
+      "depth": 14,
+      "gates": 33
+    },
+    {
+      "id": "65dce12e-e8b4-4d0e-bc21-ebfed491d298",
+      "fitness": 0.17425624678852625,
+      "depth": 17,
+      "gates": 22
+    },
+    {
+      "id": "4bdbaa49-e57e-4af9-82da-2115b223cd64",
+      "fitness": 0.16779202232354523,
+      "depth": 13,
+      "gates": 26
+    },
+    {
+      "id": "4dfbea77-8dc1-4a98-ad43-70e899ef9b12",
+      "fitness": 0.16197434184383824,
+      "depth": 14,
+      "gates": 25
+    }
+  ]
+}

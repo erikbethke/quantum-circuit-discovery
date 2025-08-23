@@ -1,0 +1,182 @@
+{
+  "id": "b2d75f36-9ce4-4831-9ece-33b4accd7663",
+  "rank": 9,
+  "fitness": {
+    "combined": 0.137951806425202
+  },
+  "metadata": {
+    "depth": 8,
+    "gate_count": 17,
+    "qubit_count": 3,
+    "unique_gates": [
+      "ry",
+      "h",
+      "cnot",
+      "rz",
+      "x"
+    ]
+  },
+  "circuit": {
+    "qubits": 3,
+    "gates": [
+      {
+        "gate": "cnot",
+        "targets": [
+          2
+        ],
+        "controls": [
+          0
+        ],
+        "parameters": null
+      },
+      {
+        "gate": "cnot",
+        "targets": [
+          0
+        ],
+        "controls": [
+          1
+        ],
+        "parameters": null
+      },
+      {
+        "gate": "cnot",
+        "targets": [
+          2
+        ],
+        "controls": [
+          1
+        ],
+        "parameters": null
+      },
+      {
+        "gate": "h",
+        "targets": [
+          2
+        ],
+        "controls": null,
+        "parameters": null
+      },
+      {
+        "gate": "ry",
+        "targets": [
+          2
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 2.493480690505552
+        }
+      },
+      {
+        "gate": "h",
+        "targets": [
+          0
+        ],
+        "controls": null,
+        "parameters": null
+      },
+      {
+        "gate": "ry",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 4.148120023453805
+        }
+      },
+      {
+        "gate": "ry",
+        "targets": [
+          0
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 0.2604582644983969
+        }
+      },
+      {
+        "gate": "h",
+        "targets": [
+          0
+        ],
+        "controls": null,
+        "parameters": null
+      },
+      {
+        "gate": "rz",
+        "targets": [
+          0
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 3.5423101417063467
+        }
+      },
+      {
+        "gate": "h",
+        "targets": [
+          2
+        ],
+        "controls": null,
+        "parameters": null
+      },
+      {
+        "gate": "rz",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 2.659114566694597
+        }
+      },
+      {
+        "gate": "ry",
+        "targets": [
+          0
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 5.411687175405416
+        }
+      },
+      {
+        "gate": "ry",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": {
+          "angle": 1.3168971951819544
+        }
+      },
+      {
+        "gate": "h",
+        "targets": [
+          1
+        ],
+        "controls": null,
+        "parameters": null
+      },
+      {
+        "gate": "x",
+        "targets": [
+          0
+        ],
+        "controls": null,
+        "parameters": null
+      },
+      {
+        "gate": "cnot",
+        "targets": [
+          2
+        ],
+        "controls": [
+          1
+        ],
+        "parameters": null
+      }
+    ]
+  }
+}

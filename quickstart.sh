@@ -1,11 +1,11 @@
 #!/bin/bash
 
-echo "🚀 DFAL Quantum Circuit Discovery Engine - Quick Start"
+echo "🚀 DFAL Quantum Circuit Discovery Engine  Quick Start"
 echo "======================================================="
 echo ""
 
 # Check Python version
-python_version=$(python3 --version 2>&1 | grep -Po '(?<=Python )\d+\.\d+')
+python_version=$(python3 --version 2>&1 | sed -n 's/Python \([0-9]\+\.[0-9]\+\).*/\1/p')
 echo "✓ Python version: $python_version"
 
 # Create virtual environment if it doesn't exist

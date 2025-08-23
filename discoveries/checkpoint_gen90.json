@@ -1,0 +1,413 @@
+{
+  "generation": 90,
+  "config": {
+    "population_size": 50,
+    "mutation_rate": 0.3,
+    "crossover_rate": 0.7
+  },
+  "statistics": [
+    {
+      "generation": 86,
+      "population_size": 50,
+      "archive_size": 1000,
+      "hall_of_fame_size": 100,
+      "fitness_history": [
+        {
+          "generation": 77,
+          "best": 0.23443960879428707,
+          "average": 0.23333057140602503,
+          "diversity": 2
+        },
+        {
+          "generation": 78,
+          "best": 0.23341319287011358,
+          "average": 0.21295886860867969,
+          "diversity": 2
+        },
+        {
+          "generation": 79,
+          "best": 0.23364068149106995,
+          "average": 0.21548661704407052,
+          "diversity": 2
+        },
+        {
+          "generation": 80,
+          "best": 0.25213204464420735,
+          "average": 0.2290393819993346,
+          "diversity": 2
+        },
+        {
+          "generation": 81,
+          "best": 0.251354494475322,
+          "average": 0.24857770414070662,
+          "diversity": 2
+        },
+        {
+          "generation": 82,
+          "best": 0.255916530629294,
+          "average": 0.2461260984848299,
+          "diversity": 2
+        },
+        {
+          "generation": 83,
+          "best": 0.21706808175182807,
+          "average": 0.2163213509062761,
+          "diversity": 2
+        },
+        {
+          "generation": 84,
+          "best": 0.19811429912103068,
+          "average": 0.19643101029181093,
+          "diversity": 2
+        },
+        {
+          "generation": 85,
+          "best": 0.17304292545297928,
+          "average": 0.17183995224699322,
+          "diversity": 2
+        },
+        {
+          "generation": 86,
+          "best": 0.167009229570422,
+          "average": 0.16654069695958112,
+          "diversity": 2
+        }
+      ]
+    },
+    {
+      "generation": 87,
+      "population_size": 50,
+      "archive_size": 1000,
+      "hall_of_fame_size": 100,
+      "fitness_history": [
+        {
+          "generation": 78,
+          "best": 0.23341319287011358,
+          "average": 0.21295886860867969,
+          "diversity": 2
+        },
+        {
+          "generation": 79,
+          "best": 0.23364068149106995,
+          "average": 0.21548661704407052,
+          "diversity": 2
+        },
+        {
+          "generation": 80,
+          "best": 0.25213204464420735,
+          "average": 0.2290393819993346,
+          "diversity": 2
+        },
+        {
+          "generation": 81,
+          "best": 0.251354494475322,
+          "average": 0.24857770414070662,
+          "diversity": 2
+        },
+        {
+          "generation": 82,
+          "best": 0.255916530629294,
+          "average": 0.2461260984848299,
+          "diversity": 2
+        },
+        {
+          "generation": 83,
+          "best": 0.21706808175182807,
+          "average": 0.2163213509062761,
+          "diversity": 2
+        },
+        {
+          "generation": 84,
+          "best": 0.19811429912103068,
+          "average": 0.19643101029181093,
+          "diversity": 2
+        },
+        {
+          "generation": 85,
+          "best": 0.17304292545297928,
+          "average": 0.17183995224699322,
+          "diversity": 2
+        },
+        {
+          "generation": 86,
+          "best": 0.167009229570422,
+          "average": 0.16654069695958112,
+          "diversity": 2
+        },
+        {
+          "generation": 87,
+          "best": 0.21057793747587245,
+          "average": 0.18504495367079896,
+          "diversity": 2
+        }
+      ]
+    },
+    {
+      "generation": 88,
+      "population_size": 50,
+      "archive_size": 1000,
+      "hall_of_fame_size": 100,
+      "fitness_history": [
+        {
+          "generation": 79,
+          "best": 0.23364068149106995,
+          "average": 0.21548661704407052,
+          "diversity": 2
+        },
+        {
+          "generation": 80,
+          "best": 0.25213204464420735,
+          "average": 0.2290393819993346,
+          "diversity": 2
+        },
+        {
+          "generation": 81,
+          "best": 0.251354494475322,
+          "average": 0.24857770414070662,
+          "diversity": 2
+        },
+        {
+          "generation": 82,
+          "best": 0.255916530629294,
+          "average": 0.2461260984848299,
+          "diversity": 2
+        },
+        {
+          "generation": 83,
+          "best": 0.21706808175182807,
+          "average": 0.2163213509062761,
+          "diversity": 2
+        },
+        {
+          "generation": 84,
+          "best": 0.19811429912103068,
+          "average": 0.19643101029181093,
+          "diversity": 2
+        },
+        {
+          "generation": 85,
+          "best": 0.17304292545297928,
+          "average": 0.17183995224699322,
+          "diversity": 2
+        },
+        {
+          "generation": 86,
+          "best": 0.167009229570422,
+          "average": 0.16654069695958112,
+          "diversity": 2
+        },
+        {
+          "generation": 87,
+          "best": 0.21057793747587245,
+          "average": 0.18504495367079896,
+          "diversity": 2
+        },
+        {
+          "generation": 88,
+          "best": 0.24573236319632158,
+          "average": 0.22983187358385185,
+          "diversity": 2
+        }
+      ]
+    },
+    {
+      "generation": 89,
+      "population_size": 50,
+      "archive_size": 1000,
+      "hall_of_fame_size": 100,
+      "fitness_history": [
+        {
+          "generation": 80,
+          "best": 0.25213204464420735,
+          "average": 0.2290393819993346,
+          "diversity": 2
+        },
+        {
+          "generation": 81,
+          "best": 0.251354494475322,
+          "average": 0.24857770414070662,
+          "diversity": 2
+        },
+        {
+          "generation": 82,
+          "best": 0.255916530629294,
+          "average": 0.2461260984848299,
+          "diversity": 2
+        },
+        {
+          "generation": 83,
+          "best": 0.21706808175182807,
+          "average": 0.2163213509062761,
+          "diversity": 2
+        },
+        {
+          "generation": 84,
+          "best": 0.19811429912103068,
+          "average": 0.19643101029181093,
+          "diversity": 2
+        },
+        {
+          "generation": 85,
+          "best": 0.17304292545297928,
+          "average": 0.17183995224699322,
+          "diversity": 2
+        },
+        {
+          "generation": 86,
+          "best": 0.167009229570422,
+          "average": 0.16654069695958112,
+          "diversity": 2
+        },
+        {
+          "generation": 87,
+          "best": 0.21057793747587245,
+          "average": 0.18504495367079896,
+          "diversity": 2
+        },
+        {
+          "generation": 88,
+          "best": 0.24573236319632158,
+          "average": 0.22983187358385185,
+          "diversity": 2
+        },
+        {
+          "generation": 89,
+          "best": 0.2465696706970514,
+          "average": 0.21919271107491428,
+          "diversity": 2
+        }
+      ]
+    },
+    {
+      "generation": 90,
+      "population_size": 50,
+      "archive_size": 1000,
+      "hall_of_fame_size": 100,
+      "fitness_history": [
+        {
+          "generation": 81,
+          "best": 0.251354494475322,
+          "average": 0.24857770414070662,
+          "diversity": 2
+        },
+        {
+          "generation": 82,
+          "best": 0.255916530629294,
+          "average": 0.2461260984848299,
+          "diversity": 2
+        },
+        {
+          "generation": 83,
+          "best": 0.21706808175182807,
+          "average": 0.2163213509062761,
+          "diversity": 2
+        },
+        {
+          "generation": 84,
+          "best": 0.19811429912103068,
+          "average": 0.19643101029181093,
+          "diversity": 2
+        },
+        {
+          "generation": 85,
+          "best": 0.17304292545297928,
+          "average": 0.17183995224699322,
+          "diversity": 2
+        },
+        {
+          "generation": 86,
+          "best": 0.167009229570422,
+          "average": 0.16654069695958112,
+          "diversity": 2
+        },
+        {
+          "generation": 87,
+          "best": 0.21057793747587245,
+          "average": 0.18504495367079896,
+          "diversity": 2
+        },
+        {
+          "generation": 88,
+          "best": 0.24573236319632158,
+          "average": 0.22983187358385185,
+          "diversity": 2
+        },
+        {
+          "generation": 89,
+          "best": 0.2465696706970514,
+          "average": 0.21919271107491428,
+          "diversity": 2
+        },
+        {
+          "generation": 90,
+          "best": 0.2232930091651584,
+          "average": 0.18694307826854356,
+          "diversity": 2
+        }
+      ]
+    }
+  ],
+  "discoveries": [],
+  "top_circuits": [
+    {
+      "id": "4bdbaa49-e57e-4af9-82da-2115b223cd64",
+      "fitness": 0.2514854399392154,
+      "depth": 42,
+      "gates": 62
+    },
+    {
+      "id": "4bdbaa49-e57e-4af9-82da-2115b223cd64",
+      "fitness": 0.2514854399392154,
+      "depth": 42,
+      "gates": 62
+    },
+    {
+      "id": "4bdbaa49-e57e-4af9-82da-2115b223cd64",
+      "fitness": 0.2514854399392154,
+      "depth": 42,
+      "gates": 62
+    },
+    {
+      "id": "4bdbaa49-e57e-4af9-82da-2115b223cd64",
+      "fitness": 0.23348708466004248,
+      "depth": 27,
+      "gates": 46
+    },
+    {
+      "id": "4bdbaa49-e57e-4af9-82da-2115b223cd64",
+      "fitness": 0.23348708466004248,
+      "depth": 27,
+      "gates": 46
+    },
+    {
+      "id": "4bdbaa49-e57e-4af9-82da-2115b223cd64",
+      "fitness": 0.23348708466004248,
+      "depth": 27,
+      "gates": 46
+    },
+    {
+      "id": "4bdbaa49-e57e-4af9-82da-2115b223cd64",
+      "fitness": 0.23102423538643604,
+      "depth": 21,
+      "gates": 45
+    },
+    {
+      "id": "4bdbaa49-e57e-4af9-82da-2115b223cd64",
+      "fitness": 0.23102423538643604,
+      "depth": 21,
+      "gates": 45
+    },
+    {
+      "id": "4bdbaa49-e57e-4af9-82da-2115b223cd64",
+      "fitness": 0.18567828472548764,
+      "depth": 17,
+      "gates": 32
+    },
+    {
+      "id": "4bdbaa49-e57e-4af9-82da-2115b223cd64",
+      "fitness": 0.18567828472548764,
+      "depth": 17,
+      "gates": 32
+    }
+  ]
+}

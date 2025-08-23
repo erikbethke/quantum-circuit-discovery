@@ -43,6 +43,11 @@ class Gene:
     controls: Optional[List[int]] = None
     parameters: Optional[Dict[str, float]] = None
     
+    def clone(self) -> 'Gene':
+        """Create a deep copy of this gene"""
+        from copy import deepcopy
+        return deepcopy(self)
+    
     def to_ionq_format(self) -> Dict:
         """Convert to IonQ API format"""
         gate_dict = {"gate": self.gate_type.value}
